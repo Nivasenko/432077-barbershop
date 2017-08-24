@@ -1,0 +1,39 @@
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: normal;
+    color #FFFFFF;
+    background: url(../img/background-index.jpg) no-repeat center 50% 3px;
+    text-transform: uppercase;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-navigation {
+    float: left;
+    width: 780px;
+    min-height: 70px;
+}
+
+.user-block {
+    float: right;
+    width: 140px;
+    min-height: 70px;
+}
+
+.features-name {
+    color: blue;
+}
